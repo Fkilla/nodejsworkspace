@@ -1,6 +1,7 @@
 var http = require('http');
 
 http.createServer(function(request, response){
+    //요청방식으로 구분한다.
     if(request.method == 'GET'){
         console.log('GET방식의 요청입니다.');
     }else if(request.method == 'POST'){

@@ -6,6 +6,8 @@ http.createServer(function(request, response){
     url.parse(request.url)
 
     var pathname = url.parse(request.url).pathname
+    //parse를 사용하면 주솟값을 객체화 할 수 있다.
+    //pathname을 이용하여 어딜 호출했는지 알수있고 response로 응답결과를 보여준다. response.end는 값을 보내기.
 
     if(pathname == '/'){
         fs.readFile('index.html',function(error, data){
