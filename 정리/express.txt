@@ -1,0 +1,8 @@
+npm install -g express-generator@4
+
+express HelloExpress
+cd HelloExpress
+npm install
+npm start
+
+포트번호가 기본 3000

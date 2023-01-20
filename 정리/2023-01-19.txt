@@ -1,0 +1,5 @@
+mysql 모듈 사용하기
+
+mysql세이프 모드 해제법
+- update와 delete가 되지 않을때 하는 방법
+SET SQL_SAFE_UPDATES = 0; 을 mysql 에 쓰기
